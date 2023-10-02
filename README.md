@@ -98,7 +98,7 @@ ___
    <br> If you wanna do this please use this command:
 
 ```md  
-git clone https://github.com/dima666Sik/
+git clone https://github.com/dima666Sik/simple-place-a-bet-annotation-app.git
 ```
 2. To run this project you will need to install:
     - JDK 11 or higher;
