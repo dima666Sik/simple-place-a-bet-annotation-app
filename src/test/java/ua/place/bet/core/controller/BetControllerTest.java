@@ -16,14 +16,12 @@ import java.util.Scanner;
 
 class BetControllerTest {
     private BetController betController;
-    private static User user;
-    private static Bet bet;
     private static UserDTO userDTO;
 
     @BeforeAll
     public static void initUserDAO() {
         // user
-        user = User.builder()
+        User user = User.builder()
                 .id(1L)
                 .email("dima@gmail.com")
                 .username("dima")

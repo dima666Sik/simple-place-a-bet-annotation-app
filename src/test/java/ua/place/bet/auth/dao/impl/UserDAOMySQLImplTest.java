@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 import ua.place.bet.auth.dao.UserDAO;
 import ua.place.bet.lib.annotations.Inject;
 import ua.place.bet.lib.annotations.Injector;

@@ -14,13 +14,12 @@ import java.util.Scanner;
 class AuthorizationControllerTest {
     private static AuthorizationController authorizationController;
     private static Scanner scanner;
-    private static User user;
     private static UserDTO userDTO;
 
     @BeforeAll
     public static void initUserDAO() {
         // user
-        user = User.builder()
+        User user = User.builder()
                 .id(1L)
                 .email("dima@gmail.com")
                 .username("dima")
@@ -38,7 +37,7 @@ class AuthorizationControllerTest {
         // Install your thread how standard thread input
         System.setIn(in);
         // Create Scanner to read data
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         authorizationController = new AuthorizationController(scanner);
         scanner = new Scanner(originalSystemIn);
         scanner.close();
@@ -54,7 +53,7 @@ class AuthorizationControllerTest {
         // Install your thread how standard thread input
         System.setIn(in);
         // Create Scanner to read data
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         authorizationController = new AuthorizationController(scanner);
         scanner = new Scanner(originalSystemIn);
         scanner.close();
